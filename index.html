@@ -3,17 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font: Lora -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap styly -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- naše CSS styly -->
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <nav id="menu">
-      <a href="ivona.html">Ivona</a>
-      <a href="misa.html">Misa</a>
-    </nav>
-    <header id="header">
-      <h1>Holky, pojďte s námi cestovat!</h1>
-    </header>
+    <!-- Hlavni menu -->
+    <section>
+    <nav id="menu" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark py-0">
+      <div class="container">
+        <a class="navbar-brand" href="#">No Stress Travel Guide for Girls</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mojeNavigace"
+          aria-controls="mojeNavigace"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mojeNavigace">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="misa.html">Míša</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ivona.html">Ivona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galerie">Galerie</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+      <!-- Hlavni nadpis  --> 
+    <section>
+
+      <header id="header">
+        <h1>Holky, pojďte s námi cestovat!</h1>
+      </header>
+   
     <!-- Popis -->
     <section id="popis">
       <p>
@@ -25,7 +71,11 @@
         psát recenze a podporovat ostatní holky, aby měly odvahu vydat se za
         hranice všedních dnů.
       </p>
+
     </section>
+
+    </section>
+    
     <!-- Fotogalerie -->
     <section id="gallery">
       <h2>Fotogalerie</h2>
