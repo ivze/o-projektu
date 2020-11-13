@@ -103,3 +103,9 @@ footer {
   margin-bottom: 50px;
   color: black;
 }
+
+.main h1 {
+  color: black;
+  font-size: 100px;
+  padding: 20px;
+}
