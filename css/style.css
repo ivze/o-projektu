@@ -94,7 +94,6 @@ footer {
 }
 
 .main {
-  display: flex;
   padding: 100px;
   background-image: url(../images/backgroundmap.png);
   background-repeat: no-repeat;
@@ -102,4 +101,5 @@ footer {
   text-align: center;
   min-height: 100vh;
   margin-bottom: 50px;
+  color: black;
 }
