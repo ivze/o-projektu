@@ -95,17 +95,18 @@ footer {
 
 .main {
   padding: 100px;
-  background-image: url(../images/backgroundmap.png);
+  background-image: url(../images/mountain1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  background-position: top;
   min-height: 100vh;
   margin-bottom: 50px;
-  color: black;
 }
 
 .main h1 {
   color: black;
+  text-shadow: 4px 4px 6px whitesmoke;
   font-size: 100px;
   padding: 20px;
+  text-align: center;
 }
